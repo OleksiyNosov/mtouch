@@ -3,7 +3,7 @@
 ## Setup
 ```sh
 # From Github
-curl --silent --create-dirs -o /bin/mtouch/mtouch.rb \
+sudo curl --silent --create-dirs -o /bin/mtouch.rb \
   'https://raw.githubusercontent.com/OleksiyNosov/mtouch/master/lib/mtouch.rb'
 # From local repo
 sudo cp lib/mtouch.rb /bin/mtouch.rb
